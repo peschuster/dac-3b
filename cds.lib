@@ -5,3 +5,4 @@ DEFINE basic    $CDS_DIR/tools/dfII/etc/cdslib/basic
 DEFINE US_8ths    $CDS_DIR/tools/dfII/etc/cdslib/sheets/US_8ths
 DEFINE ripper    $CDS_DIR/tools/dfII/etc/dci/ripper
 DEFINE umc13mmrf    $UMC_FDK_DIR/umc13mmrf
+DEFINE dac3b /home/aic02/dac_3b/dac3b
