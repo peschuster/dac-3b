@@ -1,0 +1,7 @@
+DEFINE analogLib    $CDS_DIR/tools/dfII/etc/cdslib/artist/analogLib
+DEFINE functional    $CDS_DIR/tools/dfII/etc/cdslib/artist/functional
+DEFINE sbaLib    $CDS_DIR/tools/dfII/etc/cdslib/artist/sbaLib
+DEFINE basic    $CDS_DIR/tools/dfII/etc/cdslib/basic
+DEFINE US_8ths    $CDS_DIR/tools/dfII/etc/cdslib/sheets/US_8ths
+DEFINE ripper    $CDS_DIR/tools/dfII/etc/dci/ripper
+DEFINE umc13mmrf    $UMC_FDK_DIR/umc13mmrf
