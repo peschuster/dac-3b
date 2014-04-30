@@ -1,0 +1,20 @@
+#
+analogLib cap symbol
+C0
+#
+analogLib vdc symbol
+V2
+V1
+V0
+#
+dac3b two_stage_miller symbol
+I0
+#ISCELL
+analogLib vdd symbol
+I1
+#ISCELL
+analogLib gnd symbol
+I5
+I4
+I3
+I2

@@ -1,6 +1,5 @@
 #
 analogLib cap spectre
-C_L
 C_C
 #
 umc13mmrf N_12_HSL130E spectre
@@ -30,5 +29,4 @@ analogLib vdd symbol
 I0
 #ISCELL
 analogLib gnd symbol
-I2
 I1
