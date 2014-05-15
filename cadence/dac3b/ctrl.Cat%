@@ -1,6 +1,5 @@
 TDMCHECKPOINT="1.0"
 dac3b/dff_txgate type="cell"
-dac3b/dff_txgate_simulation type="cell"
 dac3b/inverter type="cell"
 dac3b/inverter_simulation type="cell"
 dac3b/txgate type="cell"
