@@ -1,0 +1,22 @@
+#
+dac3b inverter symbol
+I3
+#
+dac3b dff_txgate symbol
+I2
+I1
+I0
+#ISCELL
+basic ipin symbol
+PIN0
+PIN3
+PIN2
+PIN1
+#ISCELL
+basic opin symbol
+PIN9
+PIN8
+PIN7
+PIN6
+PIN5
+PIN4
