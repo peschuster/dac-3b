@@ -3,9 +3,9 @@ analogLib cap symbol
 C0
 #
 analogLib vdc symbol
-V4
 V3
 V2
+V4
 V0
 #
 dac3b two_stage_miller symbol
@@ -19,6 +19,6 @@ I5
 I2
 #ISCELL
 analogLib gnda symbol
-I8
-I7
 I6
+I7
+I8

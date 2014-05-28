@@ -26,6 +26,7 @@
                 <Property NAME="sigDigits">3</Property>
                 <Property NAME="sigDigitsDefault">True</Property>
                 <Property NAME="tempStripFlag">False</Property>
+                <Property NAME="title">Mag</Property>
                 <Property NAME="useDefaultTitle">True</Property>
                 <Property NAME="userMax">0.6000000000000001</Property>
                 <Property NAME="userMin">-0.1</Property>
@@ -36,7 +37,7 @@
           <Property NAME="displayDate">True</Property>
           <Property NAME="displayType">5</Property>
           <Property NAME="eyeDiagram">False</Property>
-          <Property NAME="fontName">Dialog</Property>
+          <Property NAME="fontName">SansSerif</Property>
           <Property NAME="fontSize">12</Property>
           <Property NAME="fontStyle">0</Property>
           <Property NAME="forceCommonLimits">False</Property>
@@ -60,6 +61,7 @@
                 <Property NAME="scaleMode">1</Property>
                 <Property NAME="sigDigits">3</Property>
                 <Property NAME="sigDigitsDefault">True</Property>
+                <Property NAME="title">freq</Property>
                 <Property NAME="useDefaultTitle">True</Property>
                 <Property NAME="userMax">1.0E9</Property>
                 <Property NAME="userMin">1.0</Property>
@@ -71,7 +73,7 @@
             <JavaBean CLASS="COM.cadence.awd.graph.LabeledMarker">
               <Properties>
                 <Property NAME="arrowOn">True</Property>
-                <Property NAME="fontName">Dialog</Property>
+                <Property NAME="fontName">SansSerif</Property>
                 <Property NAME="fontSize">12</Property>
                 <Property NAME="fontStyle">0</Property>
                 <Property NAME="foregroundName">white</Property>
@@ -96,7 +98,7 @@
           <Property NAME="runVarName">freq</Property>
           <Property NAME="stripChartOn">False</Property>
           <Property NAME="subTitle"></Property>
-          <Property NAME="title">AC Response</Property>
+          <Property NAME="title">AC Analysis `ac': freq = (1 Hz -&gt; 200 MHz)</Property>
           <Property NAME="trace">
             <JavaBean CLASS="COM.cadence.awd.graph.RectTrace">
               <Properties>
@@ -110,7 +112,7 @@
                 <Property NAME="eyeInterval">1.99999999E8</Property>
                 <Property NAME="eyeMode">False</Property>
                 <Property NAME="eyeStart">1.0</Property>
-                <Property NAME="foregroundName">red</Property>
+                <Property NAME="foregroundName">blue</Property>
                 <Property NAME="indepAxisId">0</Property>
                 <Property NAME="indepUnit">Hz</Property>
                 <Property NAME="modifier">Mag</Property>
@@ -217,7 +219,7 @@
       </JavaBean>
     </Property>
     <Property NAME="height">500</Property>
-    <Property NAME="labelText">%M(%X, %Y)</Property>
+    <Property NAME="labelText"></Property>
     <Property NAME="stripChartState">False</Property>
     <Property NAME="width">611</Property>
     <Property NAME="xLocation">577</Property>

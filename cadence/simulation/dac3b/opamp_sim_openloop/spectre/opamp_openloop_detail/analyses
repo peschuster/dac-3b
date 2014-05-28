@@ -20,7 +20,7 @@ analysis(dc options readns) ""
 analysis(dc options force) ""
 analysis(dc fields values) nil
 analysis(dc fields enable) (t)
-analysis(dc fields saveOppoint) t
+analysis(dc fields saveOppoint) nil
 analysis(dc fields hysteresis) nil
 analysis(dc fields sweep) "Design Variable"
 analysis(dc fields dev) ""
@@ -31,8 +31,8 @@ analysis(dc fields designVar) "v_in"
 analysis(dc fields param) "v_in"
 analysis(dc fields rangeType) "Start-Stop"
 analysis(dc fields sweepChange) nil
-analysis(dc fields start) "-600m"
-analysis(dc fields stop) "600m"
+analysis(dc fields start) "-10m"
+analysis(dc fields stop) "10m"
 analysis(dc fields center) ""
 analysis(dc fields span) ""
 analysis(dc fields incrType) "Automatic"
