@@ -7,7 +7,7 @@ tmp1 = make_sevVariableStruct()
 tmp1 = (ncons nil)
 )
 tmp1->name = "v_offset"
-tmp1->expression = "0"
+tmp1->expression = "1.2134328m"
 tmp1->index = 1
 (unless tmp2
 tmp2 = make_sevVariableStruct()
