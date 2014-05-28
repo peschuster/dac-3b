@@ -1,7 +1,4 @@
 #
-analogLib vsin symbol
-V1
-#
 dac3b txgate symbol
 I6
 #
@@ -13,14 +10,15 @@ analogLib cap symbol
 C0
 #
 analogLib vdc symbol
+V1
 V0
 #ISCELL
 analogLib vdd symbol
 I0
 #ISCELL
 analogLib gnd symbol
-I4
-I2
 I5
+I4
 I3
+I2
 I1
