@@ -1,0 +1,5 @@
+TDMCHECKPOINT="1.0"
+dac3b/resistor_string type="cell"
+dac3b/resistor_string2 type="cell"
+dac3b/resistor_string_sim type="cell"
+keepEmptyCategory type="unknown"

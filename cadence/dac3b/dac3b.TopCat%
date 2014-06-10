@@ -1,3 +1,4 @@
 TDMCHECKPOINT="1.0"
 dac3b/analog_mux.Cat type="category"
+dac3b/ctrl.Cat type="category"
 dac3b/opamp.Cat type="category"

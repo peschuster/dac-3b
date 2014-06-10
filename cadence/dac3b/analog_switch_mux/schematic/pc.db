@@ -1,12 +1,12 @@
 #
 dac3b txgate symbol
-I7
 I13
 I12
 I11
 I10
 I9
 I8
+I7
 I6
 I5
 I4
@@ -16,13 +16,13 @@ I1
 I0
 #ISCELL
 basic ipin symbol
-PIN7
 PIN13
 PIN12
 PIN11
 PIN10
 PIN9
 PIN8
+PIN7
 PIN6
 PIN5
 PIN4

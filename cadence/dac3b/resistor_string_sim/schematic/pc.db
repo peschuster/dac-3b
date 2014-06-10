@@ -1,0 +1,25 @@
+#
+dac3b resistor_string_mismatch2A symbol
+I0
+#
+analogLib cap symbol
+C2
+C4
+C0
+C1
+C5
+C3
+C7
+C6
+#
+analogLib vdc symbol
+V2
+V1
+V0
+#ISCELL
+analogLib gnd symbol
+I3
+I1
+#ISCELL
+analogLib vdd symbol
+I2

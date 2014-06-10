@@ -1,0 +1,26 @@
+#
+analogLib vsin symbol
+V1
+#
+analogLib res symbol
+R0
+#
+dac3b txgate symbol
+I6
+#
+analogLib vpulse symbol
+V4
+V2
+#
+analogLib vdc symbol
+V0
+#ISCELL
+analogLib vdd symbol
+I0
+#ISCELL
+analogLib gnd symbol
+I5
+I4
+I3
+I2
+I1

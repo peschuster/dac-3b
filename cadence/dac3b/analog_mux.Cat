@@ -1,4 +1,7 @@
 TDMCHECKPOINT="1.0"
+dac3b/analog_switch_mux type="cell"
+dac3b/analog_switch_mux_simulation type="cell"
+dac3b/analog_switch_mux_simulation2 type="cell"
 dac3b/txgate type="cell"
 dac3b/txgate_simulation type="cell"
 keepEmptyCategory type="unknown"
