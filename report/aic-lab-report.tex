@@ -1,0 +1,133 @@
+\documentclass[parskip,oneside,colorbacktitle,10pt,accentcolor=tud1b]{tudreport}
+
+
+%% Spracheinstellungen
+\usepackage[ngerman,german]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc} 
+\usepackage{microtype} % optischer Randausgleich bei pdflatex mit Zeichendehnung
+\usepackage{afterpage} 
+
+%% Grafikeinstellungen
+\usepackage{float} % u.a. genaue Plazierung von Gleitobjekten mit H
+\usepackage{wrapfig}
+
+%% Tabelleneinstellungen
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{longtable}
+\usepackage{tabularx}
+
+%% Mathematik
+\usepackage{amsmath}
+\usepackage{nicefrac}
+\usepackage{icomma}
+
+%% sonstige Einstellungen
+\usepackage{paralist}% erweiterte Listenumgebung (z.B. compactitem)
+\usepackage{textcomp} % verschiedene Symbole
+\usepackage[nottoc, numbib]{tocbibind}
+\usepackage{hyperref}
+\renewcommand\plparsep{1ex}
+\usepackage{enumerate}
+
+\raggedbottom
+
+
+%% Output Matrikelnummer?
+\newcommand{\myAuthor}{Summer Term 2014\\Group 02 (Harshad Dhotre, Peter Schuster)}
+
+
+\title{Advanced Integrated Circuit Design Lab}
+\subtitle{3-bit Resistor String DAC}
+\subsubtitle{\myAuthor}
+\begin{document}
+
+%% Titel %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\maketitle
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{5pt}
+
+\pagestyle{myheadings}
+%\pagenumbering{arabic}
+
+\mymarkright{\myAuthor}
+
+\chapter{Introduction}
+
+\chapter{Design}
+
+\section{OpAmp}
+
+\subsection{Hand Calculations}
+
+\begin{equation}
+S_i = \frac{W_i}{L_i}
+\end{equation}
+
+\begin{equation}
+C_c = 0.5 \cdot C_L
+\end{equation}
+
+\begin{equation}
+I_5 = C_c \cdot \text{SR}
+\end{equation}
+
+\begin{equation}
+S_3 = S_4 = \frac{I_5}{{K^{'}_p} \cdot  ( V_{DD} - V_{\text{in(max)}} - | V_{T0p,max} | + V_{T0n,min}  )^2 }
+\end{equation}
+
+\begin{equation}
+g_{m1} = g_{m2} = \text{GB} \cdot C_c
+\end{equation}
+
+\begin{equation}
+S_1 = S_2 = \frac{g_{m1}^2}{K^{'}_n \cdot I_5}
+\end{equation}
+
+\begin{equation}
+V_{ds5,sat} = 0.20 V
+\end{equation}
+
+\begin{equation}
+S_5 = \frac{2 \cdot I_5}{K^{'}_n \cdot V_{ds5,sat}^2}
+\end{equation}
+
+\begin{equation}
+g_{m6} = 5 \cdot g_{m2} \cdot \frac{C_L}{C_c}
+\end{equation}
+
+\begin{equation}
+I_3 = 0.5 \cdot I_5
+\end{equation}
+
+\begin{equation}
+g_{m3} = g_{m4} = \sqrt{2 \cdot K^{'}_{p} \cdot S_3 \cdot I_3}
+\end{equation}
+
+\begin{equation}
+S_6 = \frac{g_{m6}}{g_{m4}} \cdot S_4
+\end{equation}
+
+\begin{equation}
+I_6 = \frac{g_{m6}^2}{2 \cdot K^{'}_{p} \cdot S_6}
+\end{equation}
+
+\begin{equation}
+S_7 = \frac{I_6}{I_5} \cdot S_5
+\end{equation}
+
+\subsection{Reference Voltage}
+
+\subsection{Simulations}
+
+\section{Control Logic}
+
+\section{Analog Multiplexer}
+
+\section{Resistor String}
+
+\chapter{Conclusion}
+
+\end{document}
