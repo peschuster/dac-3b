@@ -2,9 +2,9 @@
 analogLib cap symbol
 C5
 C4
-C3
 C2
 C1
+C3
 C0
 #
 analogLib vpulse symbol
@@ -20,12 +20,12 @@ dac3b ctrl_top symbol
 I0
 #ISCELL
 analogLib gnd symbol
-I1
 I6
 I5
 I4
 I3
 I2
+I1
 #ISCELL
 analogLib vdd symbol
 I7

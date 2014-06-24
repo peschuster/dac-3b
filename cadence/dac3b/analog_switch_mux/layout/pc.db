@@ -1,0 +1,18 @@
+#
+dac3b analog_switch_mux layout_half
+I2
+I1
+#ISCELL
+umc13mmrf M2_M1 symbolic
+I13
+I14
+I3
+I4
+I5
+I7
+I9
+I8
+I6
+I10
+I11
+I12

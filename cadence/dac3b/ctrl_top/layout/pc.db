@@ -1,0 +1,11 @@
+#
+dac3b dff_txgate layout
+I0
+I3
+I1
+#
+dac3b inverter layout
+I4
+#ISCELL
+umc13mmrf M2_M1 symbolic
+I2

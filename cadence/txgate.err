@@ -1,0 +1,90 @@
+================================================================================
+Rule No. 92 : 4A.19AaBaC: Minimum poly1 width is 0.12um.
+
+Real Error Count : 2; Flat Error Count : 2
+================================================================================
+
+--------------------------------------------------------------------------------
+Cell Name : txgate layout dac3b
+
+                   Cell Errors    Real Errors   Cell Placements     Environments
+                             2              2                 1                1
+--------------------------------------------------------------------------------
+Env.  Env. Placements            X1           Y1          X2           Y2
+
+  1        1                  4.900       -5.220       5.060       -2.030
+
+Shape               Environments Status & Error Marker 
+
+          1           X1         Y1         X2         Y2
+
+   1      X        4.900     -5.220      5.010     -4.622
+   2      X        4.940     -2.536      5.060     -2.030
+
+================================================================================
+Rule No. 125 : 4A.21M: Maximum NPLUS diffusion to nearest P+ pick-up spacing is 20um
+
+Real Error Count : 1; Flat Error Count : 1
+================================================================================
+
+--------------------------------------------------------------------------------
+Cell Name : txgate layout dac3b
+
+                   Cell Errors    Real Errors   Cell Placements     Environments
+                             1              1                 1                1
+--------------------------------------------------------------------------------
+Env.  Env. Placements            X1           Y1          X2           Y2
+
+  1        1                  4.560       -2.910       5.440       -2.630
+
+Shape               Environments Status & Error Marker 
+
+          1           X1         Y1         X2         Y2
+
+   1      X        4.560     -2.910      5.440     -2.630
+
+================================================================================
+Rule No. 140 : 4A.22M: Maximum P+ DIFF to nearest N+ pick-up spacing is 20um
+
+Real Error Count : 1; Flat Error Count : 1
+================================================================================
+
+--------------------------------------------------------------------------------
+Cell Name : txgate layout dac3b
+
+                   Cell Errors    Real Errors   Cell Placements     Environments
+                             1              1                 1                1
+--------------------------------------------------------------------------------
+Env.  Env. Placements            X1           Y1          X2           Y2
+
+  1        1                  4.550       -4.490       5.350       -3.590
+
+Shape               Environments Status & Error Marker 
+
+          1           X1         Y1         X2         Y2
+
+   1      X        4.550     -4.490      5.350     -3.590
+
+================================================================================
+Rule No. 579 : 4B.1E: Minimum area of ME1 region 0.1024 sq.um
+
+Real Error Count : 2; Flat Error Count : 2
+================================================================================
+
+--------------------------------------------------------------------------------
+Cell Name : txgate layout dac3b
+
+                   Cell Errors    Real Errors   Cell Placements     Environments
+                             2              2                 1                1
+--------------------------------------------------------------------------------
+Env.  Env. Placements            X1           Y1          X2           Y2
+
+  1        1                  4.800       -5.500       5.170       -1.750
+
+Shape               Environments Status & Error Marker 
+
+          1           X1         Y1         X2         Y2
+
+   1      X        4.800     -5.500      5.080     -5.220
+   2      X        4.890     -2.030      5.170     -1.750
+

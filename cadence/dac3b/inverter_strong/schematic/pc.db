@@ -1,0 +1,18 @@
+#
+umc13mmrf P_12_HSL130E symbol
+PM0
+#
+umc13mmrf N_12_HSL130E symbol
+NM0
+#ISCELL
+basic ipin symbol
+PIN0
+#ISCELL
+basic opin symbol
+PIN1
+#ISCELL
+analogLib gnd symbol
+I0
+#ISCELL
+analogLib vdd symbol
+I1

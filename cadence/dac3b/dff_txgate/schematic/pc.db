@@ -1,19 +1,21 @@
 #
-dac3b inverter symbol
-I7
+dac3b inverter_strong symbol
 I5
+I7
+#
+dac3b inverter symbol
 I6
 I4
 #
 dac3b txgate symbol
 I3
-I1
 I2
+I1
 I0
 #ISCELL
 basic opin symbol
-PIN1
 PIN2
+PIN1
 #ISCELL
 basic ipin symbol
 PIN5
