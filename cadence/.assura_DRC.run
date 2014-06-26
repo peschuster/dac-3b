@@ -1,0 +1,3 @@
+#!/bin/sh -f
+/cad/cds03/Cadence_Tools/ASSURA32_2010/tools/assura/bin/assura /home/aic02/dac_3b/cadence/Assura_DRC/top.rsf -cdslib /home/aic02/dac_3b/cadence/cds.lib -restart -gui
+exit $?

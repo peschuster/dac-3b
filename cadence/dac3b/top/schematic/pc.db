@@ -1,0 +1,29 @@
+#
+dac3b resistor_string symbol
+I22
+#
+dac3b voltage_ref symbol
+I4
+#
+dac3b two_stage_miller symbol
+I3
+#
+dac3b ctrl_top symbol
+I2
+#
+dac3b analog_switch_mux symbol
+I1
+#ISCELL
+analogLib vdd symbol
+I25
+#ISCELL
+basic ipin symbol
+PIN3
+PIN1
+PIN2
+PIN4
+PIN5
+PIN0
+#ISCELL
+basic opin symbol
+PIN6

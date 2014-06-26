@@ -1,19 +1,19 @@
 #
 umc13mmrf RNHR1000_MML130E symbol
-R27
-R28
-R29
-R26
-R25
+R6B
+R6C
+R6D
+R1
 R11
-R17
-R16
-R15
-R14
-R13
-R23
-R24
-R12
+R3
+R9
+R8
+R7
+R6A
+R5
+R10
+R2
+R4
 #ISCELL
 basic ipin symbol
 PIN3

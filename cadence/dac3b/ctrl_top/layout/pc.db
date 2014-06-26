@@ -1,8 +1,8 @@
 #
 dac3b dff_txgate layout
 I0
-I3
 I1
+I3
 #
 dac3b inverter layout
 I4

@@ -1,0 +1,3 @@
+#!/bin/sh -f
+qrc  -cmd /home/aic02/dac_3b/cadence/Assura_LVS/rcx.ctrl_top.rsf
+exit $?

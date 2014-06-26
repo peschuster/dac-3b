@@ -34,7 +34,7 @@ analysis(tran options saveperiod) ""
 analysis(tran options saveclock) ""
 analysis(tran options writefinal) "spectre.fc"
 analysis(tran fields enable) (t)
-analysis(tran fields stop) "2u"
+analysis(tran fields stop) "910n"
 analysis(tran fields errpreset) ""
 analysis(tran fields tranNoise) ""
 analysis(tran fields noisefmax) ""
