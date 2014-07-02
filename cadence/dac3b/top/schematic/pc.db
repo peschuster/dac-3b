@@ -1,5 +1,5 @@
 #
-dac3b resistor_string symbol
+dac3b resistor_string3 symbol
 I22
 #
 dac3b voltage_ref symbol
